@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "widgets": [
+    {
+      "id": "androidWebcam",
+      "name": "Android webcam",
+      "description": "Indicator for a phone attached as a USB webcam",
+      "icon": "mobile_camera",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-android-webcam",
+      "minShellVersion": "1.1",
+      "dependencies": [],
+      "tags": ["hardware", "camera"]
+    },
+    {
+      "id": "hello",
+      "name": "Hello",
+      "description": "Template widget: copy this repo to start your own",
+      "icon": "waving_hand",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-hello",
+      "minShellVersion": "1.0",
+      "dependencies": [],
+      "tags": ["template"]
+    },
+    {
+      "id": "peripheralBattery",
+      "name": "Peripheral battery",
+      "description": "Battery of mice, keyboards, headsets and other bluetooth stuff",
+      "icon": "battery_android_full",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-peripheral-battery",
+      "minShellVersion": "1.0",
+      "dependencies": [],
+      "tags": ["hardware", "bluetooth", "battery"]
+    },
+    {
+      "id": "statusphere",
+      "name": "Statusphere",
+      "description": "Who's around in your statusphere room",
+      "icon": "groups",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-statusphere",
+      "minShellVersion": "1.0",
+      "dependencies": [],
+      "tags": ["social", "status"]
+    },
+    {
+      "id": "vpn",
+      "name": "VPN",
+      "description": "Toggle and inspect VPN connections",
+      "icon": "vpn_lock",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-vpn",
+      "minShellVersion": "1.0",
+      "dependencies": ["nmcli"],
+      "tags": ["network", "privacy"]
+    }
+  ]
+}
