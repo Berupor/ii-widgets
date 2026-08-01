@@ -1,0 +1,12 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./validate.sh
