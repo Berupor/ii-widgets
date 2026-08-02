@@ -24,6 +24,17 @@
       "tags": ["template"]
     },
     {
+      "id": "kdeconnect",
+      "name": "KDE Connect",
+      "description": "The phone in the bar: charge by color, ring and share from its menu",
+      "icon": "smartphone",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-kdeconnect",
+      "minShellVersion": "1.2",
+      "dependencies": ["kdeconnect-cli", "gdbus"],
+      "tags": ["phone", "hardware"]
+    },
+    {
       "id": "peripheralBattery",
       "name": "Peripheral battery",
       "description": "Battery of mice, keyboards, headsets and other bluetooth stuff",
