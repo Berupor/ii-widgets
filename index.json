@@ -13,6 +13,17 @@
       "tags": ["hardware", "camera"]
     },
     {
+      "id": "fresence",
+      "name": "Fresence",
+      "description": "Who's around in your fresence room",
+      "icon": "groups",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-fresence",
+      "minShellVersion": "1.0",
+      "dependencies": [],
+      "tags": ["social", "status"]
+    },
+    {
       "id": "hello",
       "name": "Hello",
       "description": "Template widget: copy this repo to start your own",
@@ -44,17 +55,6 @@
       "minShellVersion": "1.0",
       "dependencies": [],
       "tags": ["hardware", "bluetooth", "battery"]
-    },
-    {
-      "id": "statusphere",
-      "name": "Statusphere",
-      "description": "Who's around in your statusphere room",
-      "icon": "groups",
-      "author": "Berupor",
-      "url": "https://github.com/Berupor/ii-widget-statusphere",
-      "minShellVersion": "1.0",
-      "dependencies": [],
-      "tags": ["social", "status"]
     },
     {
       "id": "vpn",
