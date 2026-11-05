@@ -13,6 +13,17 @@
       "tags": ["hardware", "camera"]
     },
     {
+      "id": "calendar",
+      "name": "Calendar",
+      "description": "Events in the Calendar tab of the right sidebar, from gcalcli (Google Calendar)",
+      "icon": "event",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-calendar",
+      "minShellVersion": "1.6",
+      "dependencies": ["gcalcli"],
+      "tags": ["calendar", "sidebar"]
+    },
+    {
       "id": "hello",
       "name": "Hello",
       "description": "Template widget: copy this repo to start your own",
