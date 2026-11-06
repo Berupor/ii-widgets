@@ -57,6 +57,17 @@
       "tags": ["hardware", "bluetooth", "battery"]
     },
     {
+      "id": "translator",
+      "name": "Translator",
+      "description": "Translator tab of the left sidebar with a dictionary for single words, through translate-shell",
+      "icon": "translate",
+      "author": "Berupor",
+      "url": "https://github.com/Berupor/ii-widget-translator",
+      "minShellVersion": "1.12",
+      "dependencies": ["trans"],
+      "tags": ["language", "sidebar"]
+    },
+    {
       "id": "vpn",
       "name": "VPN",
       "description": "Toggle and inspect VPN connections",
